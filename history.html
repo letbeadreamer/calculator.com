@@ -1,0 +1,31 @@
+<!-- history.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <h1>Calculation History</h1>
+
+                <!-- History List -->
+                <div id="historyListContainer">
+                    <ul id="historyList"></ul>
+                </div>
+
+                <!-- Clear History Button -->
+                <input type="button" value="Clear History" onclick="clearHistory()" class="operator clear-history-button">
+
+                <!-- Go Back Button -->
+                <input type="button" value="Go Back" onclick="goToCalculatorPage()" class="operator go-back-button">
+            </form>
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
